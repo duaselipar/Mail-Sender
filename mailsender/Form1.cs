@@ -1140,9 +1140,8 @@ item3, item3Amount, item3Lock
             }
         }
 
-        private void toolStripButtonAbout_Click(object sender, EventArgs e)
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Mailsender v1.0\nCreated by nLKicsTA", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
     }
