@@ -207,7 +207,7 @@ namespace mailsender
 
             if (userId == "" || title == "" || senderName == "" || body == "")
             {
-                MessageBox.Show("Please fill in all required fields (User ID, Title, Sender, Body).", "Missing Info", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please fill in all required fields (User ID, Title, Sender, Message).", "Missing Info", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -1141,6 +1141,11 @@ item3, item3Amount, item3Lock
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
 
         }

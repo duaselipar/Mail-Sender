@@ -514,10 +514,12 @@
             ClientSize = new Size(591, 404);
             Controls.Add(tabControl1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mail Sender By DuaSelipar";
+            Load += Form1_Load_1;
             tabPage2.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
