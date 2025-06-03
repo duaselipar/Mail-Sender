@@ -116,17 +116,17 @@
             // 
             // txtItem3
             // 
-            txtItem3.Location = new Point(362, 296);
+            txtItem3.Location = new Point(334, 296);
             txtItem3.Name = "txtItem3";
-            txtItem3.Size = new Size(135, 23);
+            txtItem3.Size = new Size(163, 23);
             txtItem3.TabIndex = 21;
             txtItem3.KeyPress += OnlyNumber_KeyPress;
             // 
             // txtQty2
             // 
-            txtQty2.Location = new Point(362, 267);
+            txtQty2.Location = new Point(334, 267);
             txtQty2.Name = "txtQty2";
-            txtQty2.Size = new Size(135, 23);
+            txtQty2.Size = new Size(163, 23);
             txtQty2.TabIndex = 18;
             txtQty2.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -149,15 +149,15 @@
             // 
             txtStarstone.Location = new Point(92, 325);
             txtStarstone.Name = "txtStarstone";
-            txtStarstone.Size = new Size(200, 23);
+            txtStarstone.Size = new Size(169, 23);
             txtStarstone.TabIndex = 32;
             txtStarstone.KeyPress += OnlyNumber_KeyPress;
             // 
             // txtQty3
             // 
-            txtQty3.Location = new Point(362, 324);
+            txtQty3.Location = new Point(334, 324);
             txtQty3.Name = "txtQty3";
-            txtQty3.Size = new Size(135, 23);
+            txtQty3.Size = new Size(163, 23);
             txtQty3.TabIndex = 23;
             txtQty3.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -165,23 +165,23 @@
             // 
             txtgold.Location = new Point(92, 209);
             txtgold.Name = "txtgold";
-            txtgold.Size = new Size(198, 23);
+            txtgold.Size = new Size(169, 23);
             txtgold.TabIndex = 50;
             txtgold.KeyPress += OnlyNumber_KeyPress;
             // 
             // txtItem2
             // 
-            txtItem2.Location = new Point(362, 238);
+            txtItem2.Location = new Point(334, 238);
             txtItem2.Name = "txtItem2";
-            txtItem2.Size = new Size(135, 23);
+            txtItem2.Size = new Size(163, 23);
             txtItem2.TabIndex = 16;
             txtItem2.KeyPress += OnlyNumber_KeyPress;
             // 
             // txtItem1
             // 
-            txtItem1.Location = new Point(362, 180);
+            txtItem1.Location = new Point(92, 180);
             txtItem1.Name = "txtItem1";
-            txtItem1.Size = new Size(135, 23);
+            txtItem1.Size = new Size(169, 23);
             txtItem1.TabIndex = 11;
             txtItem1.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -189,7 +189,7 @@
             // 
             txtMoonstone.Location = new Point(92, 296);
             txtMoonstone.Name = "txtMoonstone";
-            txtMoonstone.Size = new Size(200, 23);
+            txtMoonstone.Size = new Size(169, 23);
             txtMoonstone.TabIndex = 30;
             txtMoonstone.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -197,7 +197,7 @@
             // 
             txtPP.Location = new Point(92, 267);
             txtPP.Name = "txtPP";
-            txtPP.Size = new Size(200, 23);
+            txtPP.Size = new Size(169, 23);
             txtPP.TabIndex = 28;
             txtPP.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -205,15 +205,15 @@
             // 
             txtEP.Location = new Point(92, 238);
             txtEP.Name = "txtEP";
-            txtEP.Size = new Size(200, 23);
+            txtEP.Size = new Size(169, 23);
             txtEP.TabIndex = 26;
             txtEP.KeyPress += OnlyNumber_KeyPress;
             // 
             // txtQty1
             // 
-            txtQty1.Location = new Point(362, 209);
+            txtQty1.Location = new Point(334, 209);
             txtQty1.Name = "txtQty1";
-            txtQty1.Size = new Size(135, 23);
+            txtQty1.Size = new Size(163, 23);
             txtQty1.TabIndex = 13;
             txtQty1.KeyPress += OnlyNumber_KeyPress;
             // 
@@ -237,7 +237,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(297, 270);
+            label9.Location = new Point(269, 270);
             label9.Name = "label9";
             label9.Size = new Size(59, 15);
             label9.TabIndex = 43;
@@ -255,7 +255,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(310, 242);
+            label8.Location = new Point(282, 242);
             label8.Name = "label8";
             label8.Size = new Size(46, 15);
             label8.TabIndex = 42;
@@ -274,7 +274,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(310, 299);
+            label10.Location = new Point(282, 299);
             label10.Name = "label10";
             label10.Size = new Size(46, 15);
             label10.TabIndex = 44;
@@ -293,7 +293,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(296, 212);
+            label7.Location = new Point(268, 212);
             label7.Name = "label7";
             label7.Size = new Size(59, 15);
             label7.TabIndex = 41;
@@ -328,15 +328,15 @@
             // 
             cmbExpiry.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbExpiry.Items.AddRange(new object[] { "3", "7", "15", "30", "180", "365" });
-            cmbExpiry.Location = new Point(92, 180);
+            cmbExpiry.Location = new Point(334, 181);
             cmbExpiry.Name = "cmbExpiry";
-            cmbExpiry.Size = new Size(200, 23);
+            cmbExpiry.Size = new Size(163, 23);
             cmbExpiry.TabIndex = 9;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(297, 327);
+            label11.Location = new Point(269, 327);
             label11.Name = "label11";
             label11.Size = new Size(59, 15);
             label11.TabIndex = 45;
@@ -345,7 +345,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(310, 184);
+            label6.Location = new Point(282, 184);
             label6.Name = "label6";
             label6.Size = new Size(46, 15);
             label6.TabIndex = 40;
